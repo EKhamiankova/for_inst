@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 // ===== НАСТРОЙКИ =====
-const VERIFY_TOKEN = 'ваш_секретный_токен_для_верификации'; // придумайте любой
+const VERIFY_TOKEN = 'Enter830'; // придумайте любой
 const APP_SECRET = 'ваш_app_secret_из_meta'; // App Secret из панели Meta
 const MAKE_WEBHOOK_URL = 'https://hook.make.com/ваш_вебхук'; // URL из Make.com
 const PAGE_ACCESS_TOKEN = 'ваш_page_access_token'; // нужен для отправки сообщений позже
